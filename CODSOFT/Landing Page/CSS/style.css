@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 30px;
+}
+li:hover{
+    color: darkorange;
+    border-bottom: 1px solid darkorange;
+}
+.sec-1{
+    margin: 50px;
+    width: 15vw;
+}
+.sec-1 p{
+    padding: 0.5rem;
+}
+.para1{
+    color: darkorange;
+}
+.para2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+span{
+    color: darkorange;
+}
+.btn1{
+    padding: 10px;
+    width: 130px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color:darkorange ;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.btn1:hover{
+    background-color: white;
+    color: darkorange;
+    border: 1px solid darkorange;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-2{
+    margin-top: 30px;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-4{
+    width: 30vw;
+}
+.para4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.btn2{
+    padding: 10px;
+    width: 130px;
+    border: none;
+    outline: none;
+    color: darkorange;
+    background-color:white;
+    border-radius: 25px;
+    margin-top: 20px;
+    border: 1px solid darkorange;
+}
+.btn2:hover{
+    background-color: darkorange;
+    color: white;
+    border: 1px solid darkorange;
+}
+.main3{
+    margin-top: 25px;
+}
+.food{
+    display: flex;
+    justify-content: center;
+}
+.pricetag{
+    height: 35vh;
+    width: 15vw;
+    border: 2px solid gray;
+}
+.para5{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.choose{
+    display: flex;
+    justify-content: center;
+}
+.pricetag{
+    margin: 20px;
+    overflow: hidden;
+}
+.pricetag:hover{
+    box-shadow: 0px 2px 20px #996060;
+    position: relative;
+    top: 10px;
+}
+.para6{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.cust{
+    border-radius: 50%;
+}
+.futter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+.head{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+i{
+    margin-left: 10px;
+    color: darkorange;
+}
+.img1{
+    overflow: hidden;
+}
+.btn3{
+    border-radius: 25px;
+    background-color: darkorange;
+    border: none;
+    outline: none;
+    color: white;
+}
+.btn3:hover{
+    background-color: white;
+    color: darkorange;
+    border: 1px solid darkorange;
+}
+.div1{
+    text-align: center;
+    padding: 0.5rem;
+}
+.div1 p{
+    padding: 5px;
+}
+.icon{
+    margin: 20px;
+}
+.div2{
+    padding: 10px;
+}
+.div2 h4{
+    color: darkorange;
+}
+.div2 p{
+    color: gray;
+}
+.sec-3{
+    display: flex;
+    justify-content: space-around;
+}
